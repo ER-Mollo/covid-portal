@@ -1,0 +1,21 @@
+.employee{
+    margin:0%;
+    padding: 0;
+    display:flex;
+    justify-content: space-between;
+}
+.header{
+    background-color: rgb(224, 224, 224);
+    font-size: 2rem;
+}
+.employeeForm p{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.employeeForm input{
+    width: 700px;
+    height: 30px;
+}
+.employeeForm button{
+    padding:10px;
+}
