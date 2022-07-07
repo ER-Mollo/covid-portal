@@ -1,0 +1,11 @@
+.table{
+    /* border-collapse: collapse; */
+    width: 500px;
+}
+thead{
+    background-color: rgb(182, 189, 189);
+    padding: 10px;
+}
+tbody{
+    background-color: rgb(243, 243, 243);
+}

@@ -1,0 +1,11 @@
+.header{
+    background-color: rgb(218, 218, 218);
+    padding: 5px;
+}
+.control input{
+    width: 500px;
+    height: 30px;
+}
+.control{
+    padding-bottom: 15px;
+}
