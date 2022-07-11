@@ -38,7 +38,7 @@ function App() {
    }
 
   useEffect(()=>{
-    getEmployees()
+     getEmployees()
   }, [])
   return (
     <div className="App">

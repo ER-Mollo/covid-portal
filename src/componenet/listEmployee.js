@@ -29,7 +29,7 @@ const List = ({employees, deleteEmployee, updateEmployee}) =>{
                                     <td>{employee.name}</td>
                                     <td>{employee.surname}</td>
                                     <td>{employee.email}</td>
-                                    <td><link onClick={()=>updateEmployee(employee.id)}>Update</link><button onClick={()=>deleteEmployee(employee.id)}>Delete</button></td>
+                                    <td className="button"><button className="update" onClick={()=>updateEmployee(employee.id)}>Update</button><button className="delete" onClick={()=>deleteEmployee(employee.id)}>Delete</button></td>
                                 </tr>
                             )
                         ))
