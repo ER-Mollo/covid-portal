@@ -41,10 +41,13 @@ function App() {
      getEmployees()
   }, [])
   return (
+    <div className='main'>
+      <h1 className='text'>EMPLOYEE APP</h1>
     <div className="App">
-      <AddEmployee setName={setFirst} setSurname={setLast} setEmail={setEmail}  addEmployees={addEmployees}/>
-      <List employees={employees} deleteEmployee={deleteEmployee} updateEmployee={updateEmployees}/>
+      <AddEmployee className="add" setName={setFirst} setSurname={setLast} setEmail={setEmail}  addEmployees={addEmployees}/>
+      <List className="list" employees={employees} deleteEmployee={deleteEmployee} updateEmployee={updateEmployees}/>
       
+    </div>
     </div>
   );
 }
